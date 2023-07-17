@@ -80,7 +80,7 @@ class CustomButton extends StatelessWidget {
                         child: Text(
                           title ?? '',
                           style: style ?? AppCss.paragraphSemiBold.textColor(borderOnly == true ? appCtrl.appTheme.black : Colors.white),
-                          textAlign: textAlign
+                          textAlign: textAlign,
                           overflow: TextOverflow.ellipsis,
                         ),
                       ),
